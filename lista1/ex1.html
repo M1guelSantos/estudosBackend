@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+    const n1 = Number(prompt("Digite a nota 1!"));
+    const n2 = Number(prompt("Digite a nota 2!"));
+    const n3 = Number(prompt("Digite a nota 3!"));
+    const n4 = Number(prompt("Digite a nota 4!"));
+
+    if(n1 > 10){
+        console.error("VALOR INVÁLIDO")
+    }else if(n2 > 10){
+        console.error("VALOR INVÁLIDO")
+    }else if(n3 > 10){
+        console.error("VALOR INVÁLIDO")
+    }else if(n4 > 10)
+        console.error("VALOR INVÁLIDO")
+    else{
+        const media = (n1 + n2 + n3 + n4)/4;
+        console.log("A média do Aluno foi: " + media)
+    
+        if(media >= 7){
+            console.log("Situação do aluno: " + ' ' + "Aprovado")
+        }else if(media >= 5){
+            console.log("Situação do aluno: " + ' ' + "Recuperação")
+        }
+        
+        else{
+            console.log("Situação do aluno: " + ' ' + "Reprovado")
+        }
+    }
+</script>
+
+</body>
+</html>
