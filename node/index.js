@@ -6,7 +6,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 app.get("/", (req, res) => {
-    res.send("Teste")
+    res.send("Teste de commit 2")
 })
 
 app.post("/lista1/ex1", (req, res) => {
