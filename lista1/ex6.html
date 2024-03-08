@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        const carrosVendidos = Number(prompt("Escreva o número de carros vendidos: "))
+        const totalVendas  = Number(prompt("Escreva o valor total de vendas: "))
+        const salarioFixo  = Number(prompt("Escreva o salário fixo do vendedor: "))
+        const valorCarro  = Number(prompt("Escreva o valor recebido por carro vendido"))
+        const comissao = carrosVendidos * valorCarro
+        const porcentagemComissao = 5/100 * totalVendas
+        const salarioFinal = salarioFixo + comissao + porcentagemComissao
+        console.log("O salário final é: " + salarioFinal)
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

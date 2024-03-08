@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+          const custoFabrica = Number(prompt("Digite o valor de fábrica: "))
+          const porcentagemDistri = Number(prompt("Digite a porcentagem do distribuidor: "))
+          const imposto = Number(prompt("Digite o imposto: "))
+          const somaDistribuidor = custoFabrica * (porcentagemDistri/100)
+          const somaImpostos = custoFabrica * (imposto/100)
+          const custoFinal = custoFabrica +  somaDistribuidor + somaImpostos
+          console.log("O custo final do carro é: " + custoFinal)
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
