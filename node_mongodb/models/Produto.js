@@ -3,9 +3,15 @@ const mongoose = require("mongoose")
 const produtoSchema = mongoose.Schema({
     nome: String,
     preco: Number,
-    tamannho: String,
-    tipo: String
-})
+    tamanho: String,
+    tipo: String,
+    ingredientes: [
+        "Milho",
+        "Tomate",
+        "Pimentão",
+        "Ovo"
+    ]
+},)
 
 const Produto = mongoose.model('Produto', produtoSchema)
 
