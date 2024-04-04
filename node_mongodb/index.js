@@ -13,7 +13,6 @@ const routes = require('./routes/routes')
 app.use("/", routes)
 
 
-
 app.listen(3031,(erro) => {
     if(erro){
         console.log("Ocorreu um erro");
