@@ -38,4 +38,4 @@ const ClienteController = {
     },
 }
 
-module.exports = CLIPBOARDController
+module.exports = ClienteController

@@ -38,4 +38,4 @@ const ComandaController = {
     },
 }
 
-module.exports = CLIPBOARDController
+module.exports = ComandaController

@@ -19,7 +19,10 @@ const schema = mongoose.Schema({
     tipo: 
     { 
         type: String,
-        enum: ["Bebidas", "Pizzas", "Massas", "Sobremesas"]
+        enum: ["Bebidas", "Pizzas", "Massas",
+        
+        
+        "Sobremesas"]
     },
     ingredientes: [String]
 },)

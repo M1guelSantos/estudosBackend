@@ -38,4 +38,4 @@ const FuncionarioController = {
     },
 }
 
-module.exports = CLIPBOARDController
+module.exports = FuncionarioController
